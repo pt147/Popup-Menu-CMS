@@ -1,0 +1,8 @@
+.normal-otp-container, .fp-otp-container, .signin-otp-container, .signup-otp-container{
+    display: none;
+}
+.otp-container{
+    width: 100%;
+    height: 100%;
+    background-color: white;
+}

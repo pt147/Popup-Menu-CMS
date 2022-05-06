@@ -1,0 +1,171 @@
+@media only screen and (max-width: 533px){
+    .subevent-booking-checkout-container{
+        width: 100%;
+    }
+    .subevent-booking-checkout-event-image{
+        width: 30%;
+        margin-left: 10%;
+        margin-right: 50%;
+    }
+    .subevent-booking-checkout-event-title{
+        width: 80%;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+    .subevent-booking-checkout-event-address{
+        width: 80%;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+    .subevent-booking-checkout-descriptions-container{
+        width: 80%;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+    .subevent-booking-checkout-tickets-container{
+        width: 80%;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+    .subevent-booking-checkout-confirm-button{
+        width: 80%;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+}
+@media only screen and (min-width: 534px){
+    .subevent-booking-checkout-container{
+        width: 80%;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+    .subevent-booking-checkout-event-image{
+        width: 25%;
+        margin: 0px;
+    }
+    .subevent-booking-checkout-event-title{
+        width: 75%;
+        margin: 0px;
+    }
+    .subevent-booking-checkout-event-address{
+        width: 75%;
+        margin: 0px;
+    }
+    .subevent-booking-checkout-descriptions-container{
+        width: 100%;
+    }
+    .subevent-booking-checkout-tickets-container{
+        width: 100%;
+    }
+    .subevent-booking-checkout-confirm-button{
+        width: 50%;
+    }
+    .subevent-booking-checkout-confirm-middable-button{
+        width: 46%;
+        margin-left: 2%;
+        margin-right: 2%;
+    }
+}
+.subevent-booking-checkout-container{
+    margin-bottom: 300px;
+}
+.subevent-booking-checkout-event-container{
+    width: 100%;
+}
+.subevent-booking-checkout-event-image{
+    height: auto;
+    padding: 20px;
+    float: left;
+    border-radius: 40px;
+}
+.subevent-booking-checkout-event-title{
+    padding: 20px;
+    float: left;
+    font-size: 30px;
+    font-weight: 500;
+    color: black;
+}
+.subevent-booking-checkout-event-address{
+    padding: 0px;
+    padding-left: 20px;
+    float: left;
+    font-size: 18px;
+    font-weight: 300;
+    color: darkgrey;
+}
+.subevent-booking-checkout-descriptions-container{
+    padding: 20px;
+    padding-top: 0px;
+    float: left;
+    font-size: 16px;
+    color: rgba(219, 38, 104, 1);
+}
+.subevent-booking-checkout-event-description{
+    width: 100%;
+    float: left;
+    font-weight: 300;
+    color: darkgray;
+    word-wrap: break-word;
+    line-break: normal;
+}
+.subevent-booking-checkout-subevent-description{
+    width: 100%;
+    float: left;
+    font-weight: 400;
+    color: rgba(219, 38, 104, 1);
+    word-wrap: break-word;
+}
+.subevent-booking-checkout-ticket-container{
+    width: 100%;
+    padding: 20px;
+    height: 80px;
+    float: left;
+}
+.subevent-booking-checkout-ticket-title{
+    width: 80%;
+    color: black;
+    font-size: 18px;
+    font-weight: 300;
+    float: left;
+}
+.subevent-booking-checkout-ticket-amount{
+    width: 20%;
+    color: black;
+    font-size: 18px;
+    font-weight: 300;
+    float: left;
+    text-align: right;
+}
+.subevent-booking-checkout-ticket-separator{
+    width: 100%;
+    background-color: black;
+    height: 1px;
+    margin: 0px;
+}
+.subevent-booking-checkout-ticket-price{
+    color: black;
+    font-size: 18px;
+    font-weight: 300;
+    float: right;
+    text-align: right;
+}
+.subevent-booking-checkout-confirm-button{
+    height: 50px;
+    margin-top: 20px;
+    float: left;
+    color: white;
+    background-color: rgba(219, 38, 104, 1);
+    font-size: 21px;
+    font-weight: 500;
+    border-radius: 20px;
+    border-width: 0px;
+}
+.subevent-booking-checkout-confirm-button:hover{
+    cursor: pointer;
+    background-color: rgba(219, 38, 104, 0.8);
+}
+.payment-container{
+    width: 100%;
+    height: 50px;
+    float: left;
+}

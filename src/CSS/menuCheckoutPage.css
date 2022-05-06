@@ -1,0 +1,39 @@
+.menu-checkout-withdrawal-container{
+    width: calc(100% - 40px);
+    margin: 20px;
+    float: left;
+    border: 1px solid rgba(219, 38, 104, 1);
+    border-radius: 5px;
+}
+@media only screen and (max-width: 534px){
+    .menu-checkout-withdrawal-container{
+        width: calc(80% - 40px);
+        margin-left: calc(10% + 20px);
+        margin-right: calc(10% + 20px);
+    }
+}
+.menu-checkout-withdrawal{
+    height: 40px;
+    margin: 5px;
+    float: left;
+    background-color: blue;
+}
+.menu-checkout-withdrawal-label{
+    margin: 5px;
+    color: black;
+    font-size: 21px;
+    line-height: 40px;
+}
+.menu-checkout-instructions{
+    width: calc(100% - 10px);
+    height: calc(100% - 10px);
+    max-height: 200px;
+    margin: 5px;
+    border: 0px hidden;
+    background-color: transparent;
+}
+#menu-checkout-withdrawal-table{
+    width: 75px;
+    font-size: 15px;
+    background-color: transparent;
+}

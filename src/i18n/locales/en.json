@@ -1,0 +1,10 @@
+{
+    "eventDescription":"Description",
+    "location":"Location",
+    "ticketPrice":"Ticket Price",
+    "date": "Date",
+    "viewMenu" : "View Menu",
+    "viewDetails" : "View Popup Details",
+    "footerNote": "Download the app to discover Popup",
+    "items":"Items"
+}

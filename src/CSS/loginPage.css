@@ -1,0 +1,198 @@
+@media only screen and (max-width: 533px){
+    .login-container{
+        width: 100%;
+    }
+    .login-button{
+        width: calc(100% - 40px);
+    }
+    .login-image{
+        width: 50%;
+    }
+}
+@media only screen and (min-width: 534px){
+    .login-container{
+        width: 80%;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+    .login-button{
+        width: 40%;
+    }
+    .login-image{
+        width: 15%;
+    }
+}
+.login-container{
+    margin-bottom: 300px;
+}
+
+.sign-container, .signin-otp-container, .signup-otp-container, .fp-otp-container{
+    display: none;
+}
+.login-close-button{
+    width: 40px;
+    height: 40px;
+    margin: 25px;
+    float: right;
+    background-color: white;
+    color: red;
+    font-size: 40px;
+    font-weight: 400;
+    border-radius: 50%;
+    border-style: solid;
+    border-color: red;
+    border-width: 1px;
+    text-align: center;
+    line-height: 30px;
+}
+.login-close-button:hover{
+    cursor: pointer;
+    background-color: rgba(219, 38, 104, 0.1);
+}
+.login-image{
+    height: auto;
+    padding: 20px;
+    border-radius: 20px;
+}
+.login-title{
+    padding: 20px;
+    color: black;
+    font-size: 30px;
+    font-weight: 500;
+}
+.login-input{
+    width: calc(100% - 50px);
+    padding: 5px;
+    margin: 5px;
+    margin-left: 20px;
+    color: black;
+    font-size: 18px;
+    font-weight: 400;
+    border-top-width: 0px;
+    border-left-width: 0px;
+    border-right-width: 0px;
+    border-bottom-width: 1px;
+    border-color: darkgray;
+    border-style: solid;
+}
+.login-forgotpassword{
+    width: 100%;
+    margin-top: 5px;
+    margin-right: 30px;
+    float: right;
+    text-align: right;
+    color: rgba(219, 38, 104, 1);
+    text-decoration: none;
+}
+.login-forgotpassword:hover{
+    cursor: pointer;
+    color: rgba(219, 38, 104, 1);
+    text-decoration: underline;
+}
+.login-button{
+    height: 50px;
+    margin: 20px;
+    color: white;
+    background-color: rgba(219, 38, 104, 1);
+    font-size: 21px;
+    font-weight: 500;
+    border-radius: 20px;
+    border-width: 0px;
+}
+.login-button:hover{
+    cursor: pointer;
+    background-color: rgba(219, 38, 104, 0.8);
+}
+.login-othersignin-label{
+    margin: 20px;
+    margin-bottom: 0px;
+    color: black;
+    font-size: 18px;
+    font-weight: 300;
+}
+.login-othersignin-container{
+    width: 100%;
+    padding: 10px;
+}
+/*.login-othersingin-content{
+    height: 50px;
+    margin: 20px;
+    float: left;
+}*/
+.login-othersignin-circle{
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+    float: left;
+    border-radius: 50%;
+    border-style: solid;
+    border-width: 0.5px;
+    border-color: rgba(219, 38, 104, 1);
+    align-content: center;
+    transition: background-color .2s;
+}
+.login-othersignin-circle:hover{
+    cursor: pointer;
+    transition: background-color .2s;
+    background-color: rgba(219, 38, 104, 0.1);
+}
+.login-othersignin-image{
+    width: 36px;
+    height: 36px;
+    margin: 7px;
+}
+.login-notaccount-container{
+    width: 100%;
+    margin: 0px;
+    float: left;
+}
+.login-notaccount-label{
+    margin: 20px;
+    margin: 5px;
+    margin-left: 20px;
+    float: left;
+    color: black;
+    font-size: 21px;
+    font-weight: 400;
+}
+.login-notaccount-link{
+    float: left;
+    margin: 5px;
+    color: rgba(219, 38, 104, 1);
+    font-size: 21px;
+    font-weight: 400;
+    text-decoration: none;
+}
+.login-notaccount-link:hover{
+    cursor: pointer;
+    color: rgba(219, 38, 104, 1);
+    text-decoration: underline;
+}
+.login-checkbox{
+    width: 30px;
+    height: 30px;
+    -ms-transform: scale(1.25); /* IE */
+    -moz-transform: scale(1.25); /* FF */
+    -webkit-transform: scale(1.25); /* Safari and Chrome */
+    -o-transform: scale(1.25); /* Opera */
+    transform: scale(1.25);
+    padding: 10px;
+    float: left;
+}
+.login-terms{
+    width: calc(100% - 60px);
+    line-height: 40px;
+    float: left;
+}
+.login-input-name{
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    float: left;
+    font-size: 21px;
+    font-weight: 500;
+    text-align: center;
+}
+.payment-input{
+    margin-top: 30px;
+}

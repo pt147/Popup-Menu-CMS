@@ -1,0 +1,136 @@
+.d-block {
+  display: block !important;
+}
+
+.card-intro-title {
+    font-size: 800;
+    color: red;
+}
+.p-4 {
+  padding: 1.5rem !important;
+}
+.mb-4,
+.my-4 {
+  margin-bottom: 1.5rem !important;
+}
+
+.w-100 {
+  width: 100% !important;
+}
+.d-none {
+  display: none !important;
+}
+.d-md-block {
+  display: block !important;
+}
+
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.curved{
+    border-radius: 1rem;
+}
+.border-none{
+    border-width: 0px;
+}
+.bg-dark1{
+    background-color: rgba(233, 61, 106, 0.5) !important;
+}
+
+.apply-bg{
+  background-color: red;
+}
+.make-it-center{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.event-container{
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 40px;
+  margin-bottom: 80px;
+}
+.event-image-container{
+  width: 100%;
+  float: left;
+}
+.event-image{
+  width: 30%;
+  height: auto;
+  margin-left: 35%;
+  margin-right: 35%;
+  border-radius: 20px;
+}
+.event-title{
+  text-align: center;
+  font-size: 30px;
+  font-weight: 500;
+  color: black;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.event-info-container{
+  width: 100%;
+  background-color: red;
+}
+.event-description-container{
+  float: left;
+  width: 60%;
+  background-color: black;
+}
+.event-otherinfo-container{
+  float: left;
+  width: 40%;
+  background-color: yellow;
+}
+.event-singleinfo-container{
+  float: left;
+  width: 100%;
+  background-color: blue;
+}
+.event-buttons-container{
+  margin-top: 20px;
+  width: 100%;
+  height: auto;
+}
+.event-button{
+  height: 50px;
+  color: white;
+  float: left;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 500;
+  border-radius: 16px;
+  padding: 9px;
+  opacity: 1;
+}
+.event-button:hover{
+  cursor: pointer;
+  opacity: 0.7;
+}
+#event-menu-button{
+  background-color: black;
+}
+#event-booking-button{
+  background-color: #dd2f6e;;
+}
+@media only screen and (max-width: 533px) {
+  .event-button{
+    width: 100%;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+}
+@media only screen and (min-width: 534px) {
+  .event-button{
+    width: 150px;
+    margin-left: calc(25% - 75px);
+    margin-right: calc(25% - 75px);
+  }
+}

@@ -1,0 +1,10 @@
+{
+    "eventDescription":"Descrizione",
+    "location":"Luogo",
+    "ticketPrice":"Prezzo biglietto / quota",
+    "date": "Data",
+    "viewMenu" : "Vedi menu",
+    "viewDetails" : "Vedi dettagli del Popup",
+    "footerNote": "Scarica l’app per scoprire Popup",
+    "items": "Articoli"
+}

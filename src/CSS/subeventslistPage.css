@@ -1,0 +1,95 @@
+@media only screen and (max-width: 533px){
+    .subevents-container{
+        width: 96%;
+        margin-left: 2%;
+        margin-right: 2%;
+    }
+    .subevent-container{
+        margin: 10px;
+        width: calc(100% - 20px);
+    }
+}
+@media only screen and (min-width: 534px){
+    .subevents-container{
+        width: 80%;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+    .subevent-container{
+        margin: 20px;
+        width: calc(50% - 40px);
+    }
+}
+.subevent-container{
+    padding: 20px;
+    background-color: white;
+    transition: background-color 0.3s ease;
+    border-radius: 20px;
+    height: auto;
+    overflow: auto;
+}
+.subevent-container:hover{
+    cursor: pointer;
+}
+.subevent-container:hover{
+    background-color: rgba(219, 38, 104, 0.1);
+    transition: background-color 0.3s ease;
+}
+.subevent-topinfo-container{
+    float: left;
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+.subevent-image{
+    width: 50%;
+    height: auto;
+    float: left;
+    border-radius: 20px;
+}
+.subevent-maininfo-container{
+    width: 50%;
+    padding: 0px;
+    padding-left: 20px;
+    float: left;
+    height: auto;
+}
+.subevent-title{
+    font-size: 21px;
+    font-weight: 500;
+    color: black;
+    margin-bottom: 10px;
+}
+.subevent-time{
+    font-size: 14px;
+    font-weight: 300;
+    color: darkgray;
+}
+.subevent-description{
+    margin-top: 10px;
+    float: left;
+    font-size: 14px;
+    font-weight: 300;
+    color: darkgray;
+}
+.subevent-otherinfo-container{
+    width: 100%;
+    height: auto;
+}
+.subevent-price, .subevent-likes, .subevent-guestscount{
+    width: 100%;
+    margin: 0px;
+    float: left;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 500;
+}
+.subevent-price{
+    color: rgba(219, 38, 104, 1);
+}
+.subevent-litteicon{
+    padding: 2px;
+    height: 20px;
+    width: 20px;
+    margin-right: 5px;
+}
