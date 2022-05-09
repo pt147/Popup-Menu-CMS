@@ -22,40 +22,7 @@ const phantom = {
   width: "100%",
 };
 
-// const Footer = () => {
-//   const { t } = useTranslation();
-//   return (
-//     <div>
-//       <div style={phantom} />
-//       <div style={style}>
-//         <span>{t("footerNote")}</span>
-//         <div>
-//           <MobileStoreButton
-//             height={65}
-//             width={100}
-//             store="ios"
-//             url={
-//               "https://apps.apple.com/it/app/popup-share-the-fun/id1559033782"
-//             }
-//             linkProps={{ title: "iOS Store Button" }}
-//           />
-
-//           <MobileStoreButton
-//             height={70}
-//             width={100}
-//             store="android"
-//             url={
-//               "https://play.google.com/store/apps/details?id=com.popup.application"
-//             }
-//             linkProps={{ title: "iOS Store Button" }}
-//           />
-//         </div>
-//       </div>
-//     </div>
-//   );
-// };
 const Footer = () => {
-  const { t } = useTranslation();
   return (
     <div
       style={{
@@ -84,26 +51,6 @@ const Footer = () => {
           alignItems: "center",
         }}
       >
-        {/* <span
-          style={{
-            fontSize: "15px",
-            color: "white",
-            fontFamily:'sans-serif'
-          }}
-        >
-          {"Enjoy the revolution!"}
-        </span>
-        <span
-          style={{
-            fontSize: "19px",
-            color: "white",
-            fontWeight:'bold',
-            fontFamily:'sans-serif'
-          }}
-        >
-          {"Download the app"}
-        </span> */}
-
         <MobileStoreButton
           height={30}
           width={100}

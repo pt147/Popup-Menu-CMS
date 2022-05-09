@@ -2,14 +2,14 @@ import styles from "./Loader.module.css";
 import Loader from "react-loader-spinner";
 import ReactDOM from "react-dom";
 import { Fragment } from "react";
-import { useSelector } from 'react-redux';
-
+import { useSelector } from "react-redux";
 
 const LocalLoader = () => {
-
   const showLoader = useSelector((state) => state.loader.isShown);
 
-  const classnName = showLoader ? styles.loaderclass : styles['loaderclass-hide']
+  const classnName = showLoader
+    ? styles.loaderclass
+    : styles["loaderclass-hide"];
 
   return (
     <Fragment>

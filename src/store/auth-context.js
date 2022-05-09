@@ -1,7 +1,6 @@
 import React, { useState, useEffect, useCallback } from "react";
 import { GET_CMS_USERDATA, GET_METHOD } from "../apis/apiHelper";
 import useHttp from "../hooks/use-http";
-//let logoutTimer;
 
 const AuthContext = React.createContext({
   token: "",
@@ -74,10 +73,6 @@ export const AuthContextProvider = (props) => {
     localStorage.removeItem("token");
     localStorage.removeItem("expirationTime");
     localStorage.removeItem("userInfo");
-
-    // if (logoutTimer) {
-    //   clearTimeout(logoutTimer);
-    // }
   }, []);
 
   const loginHandler = (token, expirationTime, user) => {
@@ -86,11 +81,9 @@ export const AuthContextProvider = (props) => {
     localStorage.setItem("userInfo", user);
 
     setToken(token);
-    setUser(JSON.parse(user))
+    setUser(JSON.parse(user));
 
     const remainingTime = calculateRemainingTime(expirationTime);
-
-    //logoutTimer = setTimeout(logoutHandler, remainingTime);
   };
 
   useEffect(() => {
@@ -101,7 +94,7 @@ export const AuthContextProvider = (props) => {
           method: GET_METHOD,
         },
         (response) => {
-          setUser(response.data)
+          setUser(response.data);
           localStorage.setItem("userInfo", JSON.stringify(response.data));
         }
       );
